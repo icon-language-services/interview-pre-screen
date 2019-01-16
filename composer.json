@@ -1,0 +1,16 @@
+{
+  "require": {
+    "php": ">7.1",
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "IconLanguageServices\\InterviewPreScreen\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IconLanguageServices\\InterviewPreScreen\\Test\\": "test/"
+    }
+  }
+}
